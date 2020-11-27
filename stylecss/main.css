@@ -1,0 +1,641 @@
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Rubik', sans-serif;
+}
+
+header {
+	background-color: #F6F6F9;
+}
+
+.header {
+	width: 1200px;
+	height: 352px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container {
+	width: 1200px;
+	height: 2430px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.topheader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 44px;
+}
+
+.logodiv {
+	width: 306px;
+	height: 33px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+
+}
+
+/*#valyutaEmblema {
+	color: #285193;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.valyuta ul{
+	width: 300px;
+}
+
+.valyuta li {
+	display: flex;
+	justify-content: space-around;
+}
+
+.valyuta {
+	margin-right: 469px;
+	border: 1px solid red;
+}
+*/
+
+.headertoplogo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.valyuta ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.valyuta li{
+	padding: 5px;
+}
+
+#valyutaEmblema {
+	color: #285193;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	padding: 3px;
+}
+
+
+.Telegram a {
+	padding: 11px 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.Telegram a:before {
+	content: url('../images/oqtelegram.svg');
+	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+
+
+/*Navigation Bar Uchun Stillar*/
+
+.headerNav{
+	display: flex;
+	justify-content: space-around;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+	border-radius: 5px;
+	margin-top: 44px;
+	box-sizing: border-box;
+}
+
+.headerNav a{
+	padding: 25px 9px;
+	font-weight: 500;
+	font-size: 19px;
+	color: #515151;
+	border: 3px solid white;
+}
+
+.headerNav a:hover{
+	border-bottom: 3px solid blue;
+}
+
+.headerReklama img{
+	width: 1200px;
+	margin-top: 18px;
+}
+
+
+/*KaronaVirus Info*/
+
+
+.karonavirusInfo{
+	width: 1200px;
+	height: 133px;
+	background: #F6F6F9;
+	border-radius: 5px;
+	margin-top: 22px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.karonaBox{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 456px;
+	border-right: 2px solid #EB5569;
+	height: 74px;
+}
+
+.karonaBoxImage img{
+	width: 43px;
+	height: 45px;
+}
+
+.karonaBoxText{
+	width: 232px;
+	height: 50px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.karonaBoxText h4{
+	padding: 0;
+	margin: 0;
+}
+
+
+.karonaBox2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 200px;
+	border-right: 2px solid #F4CCD1;
+	height: 49px;
+	width: 287px;
+}
+
+
+.karonaBoxText2{
+	color: red;
+}
+
+#karonaBoxText2{
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+}
+
+
+.karonaBoxText3 h4{
+	color: green;
+}
+
+
+
+
+
+/*Section Two*/
+
+
+.section2{
+	width: 1200px;
+	height: 600px;
+	margin-top: 18px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.TopNewsBox{
+	width: 386px;
+}
+
+.TopNewsBoxImage img{
+	width: 386px;
+	height: 190px;
+}
+
+.TopNewsBoxText h4{
+	font-size: 19px;
+	color: black;
+}
+
+.TopNewsBoxText a{
+	color: black;
+}
+
+.TopNewsBoxText p{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #6B6D97;
+}
+
+.section3{
+	width: 1200px;
+	height: 1400px;
+	margin-top: 30px;
+}
+
+.NotificationSide{
+	width: 1200px;
+	height: 100px;
+	background: rgba(239, 186, 84, 0.18);
+	border-radius: 5px;
+	padding: 0px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.NotificationSideText{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 660px;
+}
+
+
+
+.NotificationSide a{
+	background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+	border-radius: 5px;
+	padding: 10px 30px;
+	color: white;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.section3Heading{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin-top: 20px;
+}
+
+.rightcolumn{
+	display: flex;
+	flex-wrap: wrap;
+	width: 800px;
+
+}
+
+.rightcolumnBox{
+	width: 780px;
+	height: 143px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.extraNewsText h4{
+	color: black;
+}
+
+.extraNewsText{
+	width: 502px;
+}
+
+.extraNewsImage{
+	width: 252px;
+	height: 163px;
+	border-radius: 5px;
+}
+
+.extraNewsImage img{
+	object-fit: cover;
+	width: 252px;
+	height: 163px;
+	border-radius: 5px;
+}
+
+.extraNewsText a{
+	color: black;
+}
+
+.extraNewsText p{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #7688A4;
+	display: flex;
+	align-items: center;	
+}
+
+.extraNewsParagraph{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.extraNewsText p:before{
+	content: url(../images/kalendar.svg);
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+
+}
+.ExtraButtom{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+	height: 50px;
+}
+
+.ExtraButtom a{
+	padding: 10px 30px;
+	color: white;
+	font-weight: bold;
+	background: #295093;
+	border-radius: 5px;
+}
+
+
+
+
+
+/*Extra News Left Side*/
+
+
+.leftcolumn{
+	width: 400px;
+	height: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.extraNewsFaktlar{
+	width: 386px;
+	height: 542px;
+	background: #F6F6F9;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.extraNewsFaktlarBox {
+	width: 346px;
+	display: block;
+	border-bottom: 4px solid #E4E4E4;
+}
+
+.extraNewsFaktlar a{
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 20px;
+	color: #202020;
+}
+
+.extraNewsFaktlar p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #7688A4;
+}
+
+
+.UcellReklama{
+	width: 386px;
+	height: 477px;
+	border-radius: 5px;
+	background-image: url('../images/image.png');
+}
+
+
+
+/*Goooooooooogleeee Plaaaaaaaaayyyyy*/
+
+
+.googleAdvertaising{
+	width: 1200px;
+	height: 214px;
+	background: #F6F6F9;
+	border-radius: 5px;
+	display: flex;
+	align-items: flex-end;
+	padding: 0;
+	justify-content: space-around;
+}
+
+.googlePhone{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 210px;
+	padding: 0;
+	margin: 0;
+}
+
+.googlePhone1 img{
+	height: 177px;
+}
+
+
+
+.googleTetx{
+	width: 526px;
+	height: 160px;
+}
+
+.googleTetx h3{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+	color: #295093;
+}
+
+.googleTetx p{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+}
+.social{
+	display: flex;
+	width: 380px;
+	justify-content: space-between;
+	height: 210px;
+	align-items: center;
+}
+
+.social img{
+	object-fit: contain;
+}
+
+
+
+
+
+
+/*Fooooooooooteeeeeeeeeerrrrrrrrrr*/
+
+
+.section4{
+	background: #295093;
+	margin-top: 30px;
+}
+
+.footer{
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 300px;
+}
+
+.footertop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 3px solid #133C82;
+	height: 76px;
+}
+
+.footertopLogo{
+	width: 194px;
+	height: 38px;
+	background: #133C82;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.footertopText{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 900px;
+}
+
+.footertopText p{
+	color: white;
+	font-weight: 500;
+}
+
+.footertopText a{
+	color: #295093;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 10px 15px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.footertopText a:before{
+	content: url(../images/koktelegram.svg);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	object-fit: contain;
+}
+
+
+
+
+.footerbottom{
+	display: flex;
+	justify-content: flex-start;
+	color: #FFFFFF;
+}
+
+.footerbottomText{
+	width: 365px;
+	height: 220px;
+}
+
+.footerservise{
+	width: 600px;
+	display: flex;
+	justify-content: space-around;
+	height: 220px;
+	font-weight: bold;
+}
+
+.footerservise ul{
+	margin: 0;
+	padding-top: 10px;
+}
+
+.footerservise li{
+	line-height: 44px;
+}
+
+.footerservise a{
+	color: #fff;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
